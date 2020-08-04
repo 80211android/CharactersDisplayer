@@ -19,7 +19,7 @@ class CharacterMapper {
         return CharacterPresentation(
             name = character.name,
             status = character.status,
-            url = character.url
+            url = character.image
         )
     }
 }
